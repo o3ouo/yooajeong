@@ -1,0 +1,545 @@
+@media screen and (max-width:1200px){
+
+    /* section 1 */
+    #section1{
+        flex-direction: column;
+    }
+
+     /* 상단 슬라이드 */
+    #section1 .top_slide{
+        width: 100%;
+        margin-bottom: 150px;
+    }
+
+    /* 하이라이트 */
+    #section1 .highlight{
+        width: 100%;
+        gap: 20px;
+    }
+    #section1 .highlight .box .txt .title{
+        margin-bottom: 0;
+    }
+    #section1 .top_slide .top_slidebox .top_box .txt .t{
+        line-height: 150%;
+    }
+
+    /* section 2 */
+    #section2 .right .title{
+        font-size: 2.4rem;
+        margin-bottom: 10px;
+    }
+    /* section 2 */
+    #section2{
+        width: calc(100% - 100px);
+        }
+    #section2>.container{
+            max-width: 920px;
+    }
+
+    /* bmw art */
+    #slide .box3 .txt_b .title{
+        font-size: 3.8rem;
+    }
+    #slide .box3 .txt_b .t{
+        font-size: 2rem;
+    }
+    #slide .box3 .txt_b .button a{
+        width: 250px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 2rem;
+    }
+
+    /* bmw concept */
+    #slide .box6 .txt_b .title{
+        font-size: 3.8rem;
+    }
+    #slide .box6 .txt_b .t{
+        font-size: 2rem;
+    }
+    #slide .box6 .txt_b .button{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #slide .box6 .txt_b .button a{
+        width: 250px;
+        height: 50px;
+        background: #008ac9;
+        border-radius: 5px;
+        text-align: center;
+        line-height: 50px;
+        display: block;
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    /* 구매 정보 */
+    #buy .btn{
+        flex-direction: column;
+        align-items: center;
+    }
+    #buy>.container{
+        max-width: 920px;
+    }
+    
+}
+
+@media screen and (max-width:991px){
+
+    /* section 1 */
+    #section1{
+        width: calc(100% - 100px);
+    }
+
+    /* 브랜드 슬라이드 */
+
+    /* bmw i */
+    #slide .box1 .txt_b .title{
+        font-size: 3.2rem;
+    }
+    #slide .box1 .txt_b .t{
+        font-size: 2.4rem;
+    }
+
+    /* bmw vision */
+    #slide .box4 .txt_b .title{
+        font-size: 3.8rem;
+    }
+
+    /* bmw x */
+    #slide .box5 .txt_b .p2{
+        font-size: 15rem;
+    }
+
+    /* 구매 정보 */
+    #buy{
+        width: calc(100% - 100px);
+    }
+    #buy .right .title{
+        font-size: 4rem;
+    }
+}
+
+
+@media screen and (max-width:767px){
+    /* section 1 */
+    #section1{
+        width: calc(100% - 30px);
+    }
+    
+
+    /* 하이라이트 */
+    #section1 .highlight .b{
+        flex-direction: column;
+    }
+    .highlight .box1, .highlight .box2{
+        margin-bottom: 150px;
+    }
+    .highlight .b figure{
+        width: fit-content;
+        margin-bottom: 50px;
+    }
+    #section1 .highlight .b .txt{
+        width: 100%;
+    }
+    #section1 .highlight .b .txt .title{
+        font-size: 2.8rem;
+    }
+    #section1 .highlight .b .txt .t{
+        font-size: 1.8rem;
+    }
+
+    /* section 2 */
+    #section2{
+        width: calc(100% - 30px);
+    }
+    #section2 .left img{
+        width: 100%;
+    }
+    .d-flex{
+        flex-direction: column;
+    }
+
+    #section2 .left{
+        width: 100%;
+    }
+    
+    #section2 .right{
+        width: 100%;
+        border-radius: 0;
+        padding: 50px 30px 100px 30px;
+    }
+    #section2 .right .title{
+        margin-bottom: 20px;
+        font-size: 3.2rem;
+        line-height: 150%;
+    }
+    #section2 .right .t{
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+    #section2 button{
+        width:400px;
+        height: 90px;
+        font-size: 2.4rem;
+    }
+
+    /* 브랜드 슬라이드 */
+
+    /* bmw i */
+    #slide .box1 .txt_b .title{
+        font-size: 3.2rem;
+    }
+    #slide .box1 .txt_b .t{
+        font-size: 2.4rem;
+    }
+
+    /* bmw m */
+
+    #slide .box2 .txt_b .title{
+        font-size: 3rem;
+        margin-bottom: 20px;
+
+    }
+    #slide .box2 .txt_b .t{
+        font-size: 2rem;
+    }
+    #slide .box2 .txt_b img{
+        display: none;
+    }
+
+    /* bmw art */
+    #slide .box3 .txt_b .title{
+        font-size: 3rem;
+    }
+    #slide .box3 .txt_b .t{
+        font-size: 2rem;
+    }
+    #slide .box3 .txt_b .button a{
+        width: 240px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 2rem;
+    }
+
+    /* bmw vision */
+    #slide .box4 .txt_b .title{
+        font-size: 3rem;
+    }
+    #slide .box4 .txt_b .t{
+        font-size: 2rem;
+    }
+
+    /* bmw x */
+    #slide .box5 .txt_b .p1, #slide .box5 .txt_b .p4{
+        font-size: 2rem;
+    }
+    #slide .box5 .txt_b .p2{
+        font-size: 15rem;
+    }
+    #slide .box5 .txt_b .p3{
+        font-size: 2rem;
+    }
+
+    /* bmw concept */
+    #slide .box6 .txt_b .title{
+        font-size: 3rem;
+    }
+    #slide .box6 .txt_b .t{
+        font-size: 2rem;
+    }
+    #slide .box6 .txt_b .button a{
+        width: 230px;
+    }
+
+
+    /* 즐겨찾기 */
+    #link .box1, #link .box2{
+        margin-bottom: 150px;
+    }
+
+    /* 구매 정보 */
+    #buy{
+        width: 100%;
+    }
+    #buy .left img{
+        width: 100%;
+    }
+    .d-flex{
+        flex-direction: column;
+    }
+    #buy .left{
+        width: 100%;
+    }
+    
+    #buy .right{
+        width: 100%;
+        padding: 50px 30px 100px 30px;
+        text-align: center;
+        align-items: center;
+    }
+
+    /* footer 2 */
+    .footer2{
+        margin-left: 0;
+        align-items: center;
+    }
+    .footer2 .sub{
+        display: none;
+    }
+    .footer2_box{
+        padding: 0;
+    }
+
+}
+
+
+@media screen and (max-width:575px){
+
+     /* 메인 */
+    main header{
+        width: 100%;
+        top: 50px;
+        left: 0;
+        padding: 0 15px;
+    }
+    main .logo{
+        padding: 0 15px;
+        top: -20px;
+    }
+
+    main .main_txt{
+        left: 0px;
+        padding-left: 10px;
+        padding-bottom: 200px;
+    }
+    main .main_txt .p1, main .main_txt .p4{
+        font-size: 2rem;
+        height: 26px;
+        line-height: 26px;
+    }
+    main .main_txt .p2{
+        font-size: 20rem;
+        height: 262px;
+        line-height: 262px;
+    }
+    main .main_txt .p3{
+        font-size: 2.4rem;
+    }
+
+    /* section 1 */
+    #section1{
+        flex-direction: column;
+        width: calc(100% - 30px);
+    }
+
+    /* 상단 슬라이드 */
+    
+
+    /* 하이라이트 */
+    #section1 .highlight{
+        width: 100%;
+    }
+    #section1 .highlight .b{
+        width: 100%;
+        height: 592px;
+        flex-direction: column;
+    }
+
+
+    #section1 .highlight .b img{
+        width: 100%;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+    #section1 .highlight .b .txt{
+        padding: 0;
+    }
+    #section1 .highlight .b .txt .title{
+        font-size: 3.2rem;
+    }
+    #section1 .highlight .b .txt .t{
+        font-size: 2rem;
+        line-height: 180%;
+    }
+
+    /* section 2 */
+    .d-flex{
+        flex-direction: column;
+    }
+
+    #section2 .left{
+        width: 100%;
+    }
+    
+    #section2 .right{
+        width: 100%;
+        border-radius: 0;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #section2 .right .title{
+        margin-bottom: 40px;
+        font-size: 3.2rem;
+        line-height: 150%;
+    }
+    #section2 .right .t{
+        font-size: 2rem;
+        margin-bottom: 50px;
+    }
+    #section2 button{
+        width:300px;
+        height: 80px;
+        font-size: 2.4rem;
+    }
+
+    /* 브랜드 슬라이드 */
+    /* bmw i */
+    #slide .box1 .txt_b .title{
+        font-size: 3rem;
+    }
+    #slide .box1 .txt_b .t{
+        font-size: 2.4rem;
+    }
+
+    /* bmw m */
+    #slide .box2 .txt_b{
+        display: none;
+    }
+
+    /* bmw art */
+    #slide .box3 .txt_b .title, #slide .box3 .txt_b .t{
+        display: none;
+    }
+
+    /* bmw art */
+    #slide .box3 .txt_b .button a{
+        width: 260px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 2.4rem;
+    }
+
+    /* bmw vision */
+    #slide .box4 .txt_b .title{
+        font-size: 4.2rem;
+    }
+    #slide .box4 .txt_b .t{
+        font-size: 2rem;
+    }
+
+    /* bmw concept */
+    #slide .box6 .txt_b .title{
+        display: none;
+    }
+    #slide .box6 .txt_b .t{
+        display: none;
+    }
+
+    #slide .box6 .txt_b .button a{
+        width: 260px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 2.4rem;
+    }
+
+    /* 모델 라인업 */
+    #model_lineup .lineup{
+        text-align: center;
+    }
+    #model_lineup .title{
+        padding-bottom: 100px;
+    }
+    #model_lineup .lineup .p3{
+        font-size: 3.2rem;
+    }
+    #model_lineup .lineup .p4{
+        font-size: 2.4rem;
+    }
+
+    #model_lineup .more a{
+        font-size: 2.8rem;
+    }
+
+    /* 즐겨찾기 */
+    #link .title{
+        font-size: 3.8rem;
+        letter-spacing: 0.03em;
+    }
+
+    #link p{
+        font-size: 2rem;
+    }
+    #link button{
+        width: 265px;
+        height: 80px;
+        font-size: 2.4rem;
+    }
+
+    /* 구매 정보 */
+
+    .d-flex{
+        flex-direction: column;
+    }
+
+    #buy .left{
+        width: 100%;
+    }
+    
+    #buy .right{
+        width: 100%;
+        border-radius: 0;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #buy .right .title{
+        margin-bottom: 40px;
+        font-size: 4.8rem;
+    }
+    #buy .right .t{
+        font-size: 2.8rem;
+        margin-bottom: 50px;
+        line-height: 150%;
+    }
+    #buy button{
+        width: 280px;
+        height: 70px;
+    }
+    /* footer 1 */
+    .footer1{
+        flex-wrap: nowrap;
+    }
+    .footer1 .txt .p1{
+        font-size: 1.2rem;
+    }
+    .footer1 .sns{
+        width: 50%;
+    }
+    .footer1 .txt .p2 a{
+        font-size: 1.6rem;
+    }
+
+    /* footer 2 */
+    .footer2{
+        margin-left: 0;
+        align-items: center;
+    }
+    .footer2 .sub{
+        display: none;
+    }
+    .footer2_box{
+        padding: 0;
+    }
+
+    /* footer 3*/
+    .footer3{
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width:400px){
+    
+}
